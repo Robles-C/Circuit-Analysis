@@ -1,0 +1,5 @@
+* source LAB10
+V_V1         N00174 0  
++PULSE 0 5V 0 0 0 2.5ms 5ms
+R_R1         N00174 N00181  1.5k TC=0,0 
+C_C1         0 N00181  333.33nF  TC=0,0 

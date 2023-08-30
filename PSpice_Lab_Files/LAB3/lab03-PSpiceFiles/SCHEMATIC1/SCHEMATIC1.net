@@ -1,0 +1,5 @@
+* source LAB03
+V_V1         N02388 0 15Vdc
+R_R2         0 N02395  2.7k TC=0,0 
+R_R3         0 N02395  1k TC=0,0 
+R_R1         N02388 N02395  100k TC=0,0 

@@ -1,0 +1,91 @@
+
+**** 10/15/20 22:46:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab06"  [ c:\users\crist\documents\csun\ece240\pspice\lab6\lab06-PSpiceFiles\SCHEMATIC1\lab06.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab06.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 1us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB06
+V_V1         N00161 0 10Vdc
+R_R1         N00161 N00168  1k TC=0,0 
+R_R2         0 N00175  2.7k TC=0,0 
+R_R3         N00175 N00168  1k TC=0,0 
+R_R4         N00168 N01058  680 TC=0,0 
+R_R5         N00175 N01067  470 TC=0,0 
+R_R6         N01067 N01058  3.3k TC=0,0 
+
+**** RESUMING lab06.cir ****
+.END
+
+**** 10/15/20 22:46:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab06"  [ c:\users\crist\documents\csun\ece240\pspice\lab6\lab06-PSpiceFiles\SCHEMATIC1\lab06.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00161)   10.0000 (N00168)    7.7859 (N00175)    5.9781 (N01058)    7.5096     
+
+(N01067)    6.1690 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.214E-03
+
+    TOTAL POWER DISSIPATION   2.21E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/15/20 22:46:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab06"  [ c:\users\crist\documents\csun\ece240\pspice\lab6\lab06-PSpiceFiles\SCHEMATIC1\lab06.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

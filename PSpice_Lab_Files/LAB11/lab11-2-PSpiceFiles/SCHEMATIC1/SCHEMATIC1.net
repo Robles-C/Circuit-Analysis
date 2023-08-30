@@ -1,0 +1,6 @@
+* source LAB11-2
+L_L1         0 N00501  68mh  
+V_V1         N00348 0  
++PULSE 2V -2V 0 0 0 .5ms 1ms
+C_C1         0 N00501  .01uF  TC=0,0 
+R_R1         N00501 N00348  560 TC=0,0 

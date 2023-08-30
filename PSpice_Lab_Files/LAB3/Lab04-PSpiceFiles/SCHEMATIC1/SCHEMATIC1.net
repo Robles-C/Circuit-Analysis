@@ -1,0 +1,7 @@
+* source LAB04
+V_V1         N00115 N00130 36Vdc
+R_R1         N00115 N00165  12 TC=0,0 
+R_R2         N00115 0  3 TC=0,0 
+R_R3         0 N00130  6 TC=0,0 
+R_R4         N00130 N00165  6 TC=0,0 
+I_I1         0 N00165 DC 6Adc  

@@ -1,0 +1,10 @@
+* source LAB8IN
+X_U1         0 N00894 N00962 N01030 N01128 uA741
+V_V1         N00859 0  AC 0
++SIN 0 .3V 1kHz 0 0 0
+R_R1         N00859 N00894  10k TC=0,0 
+R_R2         N01030 N01080  56k TC=0,0 
+R_R3         N00894 N01128  100k TC=0,0 
+R_R4         N00962 N00969  56k TC=0,0 
+V_V2         N00969 0 15Vdc
+V_V3         N01080 0 -15Vdc

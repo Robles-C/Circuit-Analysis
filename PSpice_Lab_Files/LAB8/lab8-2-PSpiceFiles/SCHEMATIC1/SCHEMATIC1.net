@@ -1,0 +1,9 @@
+* source LAB8-2
+V_V3         N01479 0 15Vdc
+X_U1         N01573 N01623 N01469 N01649 N01623 uA741
+V_V2         N01679 0 15Vdc
+R_R4         N01649 N01679  56k TC=0,0 
+V_V1         N01573 0  AC 0
++SIN 0 .3V 1kHz 0 0 0
+R_R2         N01469 N01479  56k TC=0,0 
+R_R1         0 N01623  10k TC=0,0 

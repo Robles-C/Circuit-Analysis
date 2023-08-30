@@ -1,0 +1,7 @@
+* source LAB6-6
+V_V1         N00131 0 5Vdc
+V_V2         N00152 0 10Vdc
+R_R1         N00131 N00152  2.7k TC=0,0 
+R_R2         N00131 N00138  1k TC=0,0 
+R_R3         N00138 N00152  3.3k TC=0,0 
+R_R4         0 N00138  1k TC=0,0 

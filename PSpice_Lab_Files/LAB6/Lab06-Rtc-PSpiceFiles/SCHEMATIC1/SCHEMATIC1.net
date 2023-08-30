@@ -1,0 +1,4 @@
+* source LAB06-RTC
+V_V1         N00083 0 10Vdc
+R_RT         0 N00083  1937.23 TC=0,0 
+R_RL         0 N00083  3.3k TC=0,0 

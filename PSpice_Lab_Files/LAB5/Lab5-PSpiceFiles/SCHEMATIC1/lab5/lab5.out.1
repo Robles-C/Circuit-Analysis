@@ -1,0 +1,50 @@
+
+**** 09/30/20 19:08:35 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-lab5"  [ C:\Users\crist\Documents\CSUN\ECE240\PSPICE\LAB5\Lab5-PSpiceFiles\SCHEMATIC1\lab5.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab5.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 1us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB5
+V_V1         N00115 N00143 10Vdc
+R_R1         N00115 N00122  1k TC=0,0 
+R_R2         N00143 N00122  1k TC=0,0 
+R_R3         N00122 N00136  1k TC=0,0 
+R_R4         N00143 N00136  1k TC=0,0 
+
+**** RESUMING lab5.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00115 is floating
+
+ERROR(ORPSIM-15142): Node N00143 is floating
+
+ERROR(ORPSIM-15142): Node N00122 is floating
+
+ERROR(ORPSIM-15142): Node N00136 is floating
+

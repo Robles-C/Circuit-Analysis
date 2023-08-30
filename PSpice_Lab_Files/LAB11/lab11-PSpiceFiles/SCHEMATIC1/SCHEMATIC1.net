@@ -1,0 +1,6 @@
+* source LAB11
+V_V1         N00153 0  
++PULSE 1V -1V 0 0 0 .5ms 1ms
+L_L1         N00160 N00164  68mh  
+C_C1         N00153 N00160  .01uF  TC=0,0 
+R_R1         0 N00164  6.8k TC=0,0 

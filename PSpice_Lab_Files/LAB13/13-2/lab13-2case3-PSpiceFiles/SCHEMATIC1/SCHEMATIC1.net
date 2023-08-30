@@ -1,0 +1,5 @@
+* source LAB13-2CASE3
+V_V1         N00260 0  AC 1
++SIN 0 1 10k 0 0 0
+R_R1         0 N00276  3.3k TC=0,0 
+L_L1         N00260 N00276  68mH  

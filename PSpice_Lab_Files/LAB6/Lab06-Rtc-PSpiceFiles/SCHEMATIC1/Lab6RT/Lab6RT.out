@@ -1,0 +1,85 @@
+
+**** 10/22/20 17:12:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab6RT"  [ C:\Users\crist\Documents\CSUN\ECE240\PSPICE\LAB6\lab06-rtc-pspicefiles\schematic1\lab6rt.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Lab6RT.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 1us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB06-RTC
+V_V1         N00083 0 10Vdc
+R_RT         0 N00083  1937.23 TC=0,0 
+R_RL         0 N00083  3.3k TC=0,0 
+
+**** RESUMING Lab6RT.cir ****
+.END
+
+**** 10/22/20 17:12:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab6RT"  [ C:\Users\crist\Documents\CSUN\ECE240\PSPICE\LAB6\lab06-rtc-pspicefiles\schematic1\lab6rt.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00083)   10.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -8.192E-03
+
+    TOTAL POWER DISSIPATION   8.19E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/22/20 17:12:30 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab6RT"  [ C:\Users\crist\Documents\CSUN\ECE240\PSPICE\LAB6\lab06-rtc-pspicefiles\schematic1\lab6rt.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

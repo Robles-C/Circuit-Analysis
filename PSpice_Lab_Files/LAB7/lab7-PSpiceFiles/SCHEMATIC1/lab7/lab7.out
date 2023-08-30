@@ -1,0 +1,87 @@
+
+**** 10/22/20 16:10:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab7"  [ c:\users\crist\documents\csun\ece240\pspice\lab7\lab7-pspicefiles\schematic1\lab7.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab7.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 1us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB7
+V_V1         N00216 0 10Vdc
+R_RL         0 N00234  2.7k TC=0,0 
+R_R3         0 N00230  1.5k TC=0,0 
+R_R1         N00216 N00230  1.5k TC=0,0 
+R_R2         N00230 N00234  1.95k TC=0,0 
+
+**** RESUMING lab7.cir ****
+.END
+
+**** 10/22/20 16:10:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab7"  [ c:\users\crist\documents\csun\ece240\pspice\lab7\lab7-pspicefiles\schematic1\lab7.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00216)   10.0000 (N00230)    4.3056 (N00234)    2.5000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -3.796E-03
+
+    TOTAL POWER DISSIPATION   3.80E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/22/20 16:10:47 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab7"  [ c:\users\crist\documents\csun\ece240\pspice\lab7\lab7-pspicefiles\schematic1\lab7.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

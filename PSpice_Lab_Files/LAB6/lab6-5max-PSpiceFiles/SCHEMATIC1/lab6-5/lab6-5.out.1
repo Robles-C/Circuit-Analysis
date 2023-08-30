@@ -1,0 +1,51 @@
+
+**** 10/15/20 23:22:29 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab6-5"  [ C:\Users\crist\Documents\CSUN\ECE240\PSPICE\LAB6\lab6-5max-PSpiceFiles\SCHEMATIC1\lab6-5.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab6-5.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 3ms 0 1us 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB6-5MAX
+V_V1         N00175 N00149 10Vdc
+R_R1         N00135 N00175  2.7k TC=0,0 
+R_R2         N00141 N00175  3.3k TC=0,0 
+R_R3         N00135 N00141  2482 TC=0,0 
+R_R4         N00149 N00135  4.7k TC=0,0 
+R_R5         N00149 N00141  1k TC=0,0 
+
+**** RESUMING lab6-5.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N00175 is floating
+
+ERROR(ORPSIM-15142): Node N00149 is floating
+
+ERROR(ORPSIM-15142): Node N00135 is floating
+
+ERROR(ORPSIM-15142): Node N00141 is floating
+
